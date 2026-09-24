@@ -58,7 +58,7 @@ JEV 자체는 동일하게 zero-shot 방식으로 사용하되, Kaggle train 데
 즉 JEV의 weight를 학습하거나 fine-tuning한 것은 아니며, 최종 분류 기준만 데이터에 맞게 조정하였다.
 ```
 
-###결과
+### 결과
 
 | Method | Kaggle Public F1 |
 |---|---:|
