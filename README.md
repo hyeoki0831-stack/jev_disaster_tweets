@@ -55,7 +55,7 @@ P < 0.5  → 0
 
 2. JEV + Threshold Calibration
 JEV 자체는 동일하게 zero-shot 방식으로 사용하되, Kaggle train 데이터 일부를 이용하여 F1 Score가 가장 높아지는 threshold를 탐색하였다.
-즉 JEV의 weight를 학습하거나 fine-tuning한 것은 아니며, 최종 분류 기준만 데이터에 맞게 조정하였다.
+즉 JEV의 weight를 학습하거나 fine-tuning한 것은 아니며, 최종 분류 기준만 데이터에 맞게 조정하였다.```
 
 ###결과
 
