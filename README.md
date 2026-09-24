@@ -68,7 +68,7 @@ JEV 자체는 동일하게 zero-shot 방식으로 사용하되, Kaggle train 데
 Threshold calibration을 적용했을 때 F1 Score가 약 0.01287 향상되었다.
 특히 threshold를 별도로 조정하지 않은 순수 zero-shot 방식에서도 0.82194의 F1 Score를 기록했다는 점이 흥미로웠다.
 
-###해석
+### 해석
 이번 실험에서는 JEV를 Kaggle Disaster Tweets 데이터로 별도로 학습시키지 않았다.
 따라서 이번 결과는 JEV가 모든 머신러닝·딥러닝 모델을 대체할 수 있다는 의미는 아니다.
 다만 텍스트의 의미를 기반으로 판단해야 하는 분류 문제에서는 별도의 task-specific 학습 없이도 기존 classifier와 유사한 역할을 수행할 가능성을 확인할 수 있었다.
